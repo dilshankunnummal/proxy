@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  ship:
+    build: ./src/ship
+    ports:
+      - "8080:8080"
+
+  offshore:
+    build: ./src/offshore
+    ports:
+      - "9000:9000"
